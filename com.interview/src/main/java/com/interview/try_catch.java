@@ -19,6 +19,8 @@ public class try_catch {
 			// TODO: handle exception
 
 			System.out.println("Something Went Wrong " + e);
+		}finally {
+			System.out.println("SUPERB ! No Errors :) ");
 		}
 
 	}
